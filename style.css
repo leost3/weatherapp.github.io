@@ -1,0 +1,118 @@
+
+
+
+body {
+	background-image: url('mountain.jpg');
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	background-size: cover;
+	transition: background 1s;
+	-webkit-transition: background 1s;
+	-moz-transition: background 1s;
+
+}
+
+h1 {
+	font-size: 5em;
+	color: #f2f2f2;
+	background-color: : transparent;
+	font-weight: 700
+	
+}
+
+#temperature {
+	font-size: 100px;
+	font-weight: 100px;
+	color: rgba(255, 255, 255);
+}
+
+i {
+	color: white;
+	
+}
+
+span {
+	transition: background 0.6s;
+	-webkit-transition: background 0.6s;
+	-moz-transition: background 0.6s;
+}
+
+.boxContainer{
+	width: 100%;
+	margin: 20px auto;
+	overflow: hidden;
+	padding: 20px;
+	text-align: center;
+
+}
+
+.boxContainer ul {
+	padding: 0px;
+	margin: 0px;
+}
+
+
+.boxContainer ul li {
+	float: left;
+	margin-left: 16%;
+	list-style: none;
+	text-transform: uppercase;
+	color: rgba(135, 206, 235, 0.5);
+	font-weight: 50px;
+	font-size: 20px;
+}
+
+.cityInfo {
+	font-size: 1.5em;
+	
+}
+
+.cityInfo, .sky, .wind {
+	box-shadow: 2px 2px rgba(255, 255, 255, 0.5);
+	cursor: context-menu;
+	transition: 1s;
+	
+}
+
+.boxContainer:hover{
+	transform: scale(1.4);
+}
+
+input:focus {
+	background: rgba(0, 0, 125, 0.3);
+	border: 3px solid #2980b9;
+	outline: none;
+}
+
+
+button {
+	width: auto;
+	border: 0.5px solid black;
+	cursor: pointer;
+	outline: none;
+	font-weight: 700;
+	box-shadow: 1px 1px;
+	background: linear-gradient(white, steelblue);
+	border-radius: 15%;
+	font-size: inherit;
+}
+
+input {
+	border: 0.5px solid black;
+	box-shadow: 3px 3px;
+
+}
+
+button:hover {
+	background: linear-gradient(steelblue, white);
+}
+
+button:clicked {
+	background: linear-gradient(steelblue, white);
+}
+
+.selected {
+	color: white;
+	background: transparent;
+}
